@@ -285,3 +285,6 @@ loading <- ggscatter(OPLS_TMB_comp_data$Loadings,x="p1",y="o1",
 png("OPLS-DA (Loading) - TMB.png",width = 4600,height = 3200,units = "px",res = 300)
 loading
 dev.off()
+
+pdf("Diagnostico_modelos.pdf",width = 12,height = 12)
+dev.off()
